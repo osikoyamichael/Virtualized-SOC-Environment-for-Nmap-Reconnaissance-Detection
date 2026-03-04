@@ -8,7 +8,7 @@ This project demostrates decttion of TCP SYN recconaissance activity using UFW f
 - Log source: /var/log/ufw.log                                                                                                                                                                                                                                                                                                                  
 ## Attack Simulation
 Nmap SYN scan executed from kali linux against ubuntu server
-- Nmap -sS -Pn -T4 -Sv 192.168.58.101                                                                                   
+- Nmap -sS -Pn -T4 -Sv 192.168.58.101                                                                                  
 ## Detection Logic 
 The detection identifies:
 - Mutiple unique destination ports targeted by a single source IP.
