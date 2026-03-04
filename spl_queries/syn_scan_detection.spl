@@ -1,0 +1,5 @@
+index=soc_lab sourcetype=syslog "[UFW BLOCK]"
+| rex "SRC=(?<src_ip>\d+\.\d+\.\d+\.\d+)"
+| rex "DPT=(?<dest_port>\d+)"
+| stats dc(dest_port) as unique_ports count as total_attempts by src_ip
+| where unique_ports >= 2 OR total_attempts >= 5
