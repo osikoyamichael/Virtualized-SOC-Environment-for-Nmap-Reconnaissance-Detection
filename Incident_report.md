@@ -10,7 +10,7 @@ On march 1, 2026, Mutilple blocked TCP SYN attempts were detect against ubuntu s
 - splunk detection
 
 ### 3. Evidence 
-Mar  2 20:04:17 archangel kernel: [  540.273669] [UFW BLOCK] IN=enp0s3 OUT= MAC=08:00:27:7d:4a:11:0...... SRC=192.168.56.102 DST=192.168.56.101 LEN=52 TOS=0x00 PREC=0x00 TTL=128 ID=24850 DF PROTO=TCP SPT=61633 DPT=8001 WINDOW=65535 RES=0x00 SYN URGP=0 
+Mar  1 20:04:17 archangel kernel: [  540.273669] [UFW BLOCK] IN=enp0s3 OUT= MAC=08:00:27:7d:4a:11:0...... SRC=192.168.56.102 DST=192.168.56.101 LEN=52 TOS=0x00 PREC=0x00 TTL=128 ID=24850 DF PROTO=TCP SPT=61633 DPT=8001 WINDOW=65535 RES=0x00 SYN URGP=0 
 host = archangel source = /var/log/ufw.logsourcetype = syslog
 
 ### 4. Analysis
