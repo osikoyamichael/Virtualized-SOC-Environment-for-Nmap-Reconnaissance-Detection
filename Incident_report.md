@@ -2,7 +2,7 @@
 ## Firewall Reconnaissance Detection 
 
 ### 1. Executive Summary 
-On march 2, 2026, Mutilple blocked TCP SYN attempts were detect against ubuntu server( 192.168.56.102).Activity indicates active network emuration consistent with Nmap SYN scanning.
+On march 1, 2026, Mutilple blocked TCP SYN attempts were detect against ubuntu server( 192.168.56.102).Activity indicates active network emuration consistent with Nmap SYN scanning.
 
 ### 2. Timeline 
 - Mutiple TCP SYN packets observed
