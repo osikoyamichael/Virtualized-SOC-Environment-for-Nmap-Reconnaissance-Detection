@@ -1,6 +1,6 @@
 # Firewall Port scan Detection Lab (splunk + UFW)                                                                                  
 ## Overview
-This project demostrates decttion of TCP SYN recconaissance activity using UFW firewall logs ingested into splunk. 
+This project demostrates dection of TCP SYN recconaissance activity using UFW firewall logs ingested into splunk. 
 ## Lab Environment 
 - Ubuntu server (UFW enabled)
 - Kali linux (attacker machine: nmap scan)
